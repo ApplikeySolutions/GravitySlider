@@ -1,29 +1,72 @@
-# GravitySlider
+# GravitySliderFlowLayout
 
-[![CI Status](http://img.shields.io/travis/ihahanov/GravitySlider.svg?style=flat)](https://travis-ci.org/ihahanov/GravitySlider)
-[![Version](https://img.shields.io/cocoapods/v/GravitySlider.svg?style=flat)](http://cocoapods.org/pods/GravitySlider)
-[![License](https://img.shields.io/cocoapods/l/GravitySlider.svg?style=flat)](http://cocoapods.org/pods/GravitySlider)
-[![Platform](https://img.shields.io/cocoapods/p/GravitySlider.svg?style=flat)](http://cocoapods.org/pods/GravitySlider)
+[![CI Status](http://img.shields.io/travis/ApplikeySolutions/GravitySliderFlowLayout.svg?style=flat)](https://travis-ci.org/ApplikeySolutions/GravitySliderFlowLayout)
+[![Version](https://img.shields.io/cocoapods/v/GravitySliderFlowLayout.svg?style=flat)](http://cocoapods.org/pods/GravitySliderFlowLayout)
+[![License](https://img.shields.io/cocoapods/l/GravitySliderFlowLayout.svg?style=flat)](http://cocoapods.org/pods/GravitySliderFlowLayout)
+[![Platform](https://img.shields.io/cocoapods/p/GravitySliderFlowLayout.svg?style=flat)](http://cocoapods.org/pods/GravitySliderFlowLayout)
 
-## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+# Table of Contents
+1. [Purpose](#purpose)
+2. [Supported OS & SDK Versions](#supported-os--sdk-versions)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [Demo](#demo)
+6. [Release Notes](#release-notes)
+7. [Contact Us](#contact-us)
+8. [License](#license)
 
-## Requirements
+# Purpose
+
+GravitySlider is a lightweight animation flowlayot for UICollectionView completely written in Swift 4, compatible with iOS 11 and xCode 9.
+
+
+# Supported OS & SDK Versions
+
+* Supported build target - iOS 9.0
 
 ## Installation
 
-GravitySlider is available through [CocoaPods](http://cocoapods.org). To install
+GravitySliderFlowLayout is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'GravitySlider'
+pod 'GravitySliderFlowLayout'
 ```
 
-## Author
+# Usage
 
-ihahanov, ivan.hahanov@applikeysolutions.com
+```swift
+import GravitySliderFlowLayout
 
-## License
+let gravitySliderLayout = GravitySliderFlowLayout(with: CGSize(width: 50, height: 50))
+collectionView.collectionViewLayout = gravitySliderLayout
+```
 
-GravitySlider is available under the MIT license. See the LICENSE file for more info.
+# Release Notes
+
+Version 1.0
+
+- Release version.
+
+# Contact Us
+
+You can always contact us via github@applikey.biz We are open for any inquiries regarding our libraries and controls, new open-source projects and other ways of contributing to the community. If you have used our component in your project we would be extremely happy if you write us your feedback and let us know about it!
+
+# License
+
+The MIT License (MIT)
+
+Copyright © 2017 Applikey Solutions
+
+Permission is hereby granted free of charge to any person obtaining a copy of this software and associated documentation files (the "Software") to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+

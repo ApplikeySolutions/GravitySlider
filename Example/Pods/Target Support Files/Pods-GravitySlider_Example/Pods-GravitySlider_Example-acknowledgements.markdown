@@ -3,7 +3,7 @@ This application makes use of the following third party libraries:
 
 ## GravitySlider
 
-Copyright (c) 2017 ihahanov <ivan.hahanov@applikeysolutions.com>
+Copyright (c) 2017 ApplikeySolutions <welcome@applikeysolutions.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

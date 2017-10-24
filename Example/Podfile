@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GravitySlider_Example' do
+  pod 'GravitySlider', :path => '../'
+
+  target 'GravitySlider_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

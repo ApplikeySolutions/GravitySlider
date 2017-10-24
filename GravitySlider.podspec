@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GravitySlider'
-  s.version          = '0.1.0'
+  s.version          = '1.0'
   s.summary          = 'GravitySlider is a beautiful alternative to the standard UICollectionView flow layout.'
 
 # This description is used to generate tags and improve search results.

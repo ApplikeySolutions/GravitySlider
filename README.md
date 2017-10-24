@@ -1,10 +1,16 @@
 # GravitySliderFlowLayout
 
-[![CI Status](http://img.shields.io/travis/ApplikeySolutions/GravitySliderFlowLayout.svg?style=flat)](https://travis-ci.org/ApplikeySolutions/GravitySliderFlowLayout)
 [![Version](https://img.shields.io/cocoapods/v/GravitySliderFlowLayout.svg?style=flat)](http://cocoapods.org/pods/GravitySliderFlowLayout)
 [![License](https://img.shields.io/cocoapods/l/GravitySliderFlowLayout.svg?style=flat)](http://cocoapods.org/pods/GravitySliderFlowLayout)
 [![Platform](https://img.shields.io/cocoapods/p/GravitySliderFlowLayout.svg?style=flat)](http://cocoapods.org/pods/GravitySliderFlowLayout)
+[![Twitter](https://img.shields.io/badge/contact-@Applikey_-blue.svg?style=flat)](https://twitter.com/Applikey_)
+![Swift 3.0.x](https://img.shields.io/badge/Swift-3.0.x-orange.svg)
 
+Made by [Applikey Solutions](https://applikeysolutions.com)
+
+Find this [project on Dribbble](https://dribbble.com/shots/3845707-Gravity-Slider)
+
+![GravitySliderFlowLayout](https://f.flockusercontent2.com/544bebf15076470414771a9d)
 
 # Table of Contents
 1. [Purpose](#purpose)
@@ -42,6 +48,9 @@ import GravitySliderFlowLayout
 let gravitySliderLayout = GravitySliderFlowLayout(with: CGSize(width: 50, height: 50))
 collectionView.collectionViewLayout = gravitySliderLayout
 ```
+
+# Demo
+![example-plain](https://f.flockusercontent2.com/544bebf15076462334a6c0f7)
 
 # Release Notes
 

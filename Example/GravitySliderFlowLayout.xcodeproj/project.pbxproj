@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05D036881FA76085002C927B /* GravitySliderFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D036871FA76084002C927B /* GravitySliderFlowLayout.swift */; };
 		05D6C0951F9F1757002174F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D6C0941F9F1757002174F6 /* ViewController.swift */; };
 		05D6C09A1F9F1777002174F6 /* ProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D6C0991F9F1777002174F6 /* ProductCollectionViewCell.swift */; };
 		05D6C09C1F9F17DF002174F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05D6C09B1F9F17DF002174F6 /* Main.storyboard */; };
@@ -14,28 +15,19 @@
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		D84CF501849E4BBE9599DAC8 /* Pods_GravitySliderFlowLayout_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 645B79A0C75B22CFBB01F805 /* Pods_GravitySliderFlowLayout_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		05D036871FA76084002C927B /* GravitySliderFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GravitySliderFlowLayout.swift; path = ../../GravitySliderFlowLayout/Classes/GravitySliderFlowLayout.swift; sourceTree = "<group>"; };
 		05D6C0941F9F1757002174F6 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		05D6C0991F9F1777002174F6 /* ProductCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewCell.swift; sourceTree = "<group>"; };
 		05D6C09B1F9F17DF002174F6 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		05D6C09E1F9F17FF002174F6 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
-		060AA8DD4A5462649640450A /* Pods-GravitySliderFlowLayout_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GravitySliderFlowLayout_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GravitySliderFlowLayout_Tests/Pods-GravitySliderFlowLayout_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		4091DCFCA0CD3E9ACBF4D885 /* Pods-GravitySliderFlowLayout_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GravitySliderFlowLayout_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GravitySliderFlowLayout_Tests/Pods-GravitySliderFlowLayout_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		5551F29BCA2130662071ADE2 /* Pods-GravitySliderFlowLayout_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GravitySliderFlowLayout_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-GravitySliderFlowLayout_Example/Pods-GravitySliderFlowLayout_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* GravitySliderFlowLayout_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GravitySliderFlowLayout_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		645B79A0C75B22CFBB01F805 /* Pods_GravitySliderFlowLayout_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GravitySliderFlowLayout_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7F671F9A5D3E8E2F51BA97A2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		8B1E0E12E4C41737252EA929 /* Pods_GravitySliderFlowLayout_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GravitySliderFlowLayout_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		97C2671730D90DE33FD088D2 /* GravitySliderFlowLayout.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GravitySliderFlowLayout.podspec; path = ../GravitySliderFlowLayout.podspec; sourceTree = "<group>"; };
-		9CF3967EA05477C506C1D102 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		D3AF43636ACA69A271D876CA /* Pods-GravitySliderFlowLayout_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GravitySliderFlowLayout_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GravitySliderFlowLayout_Example/Pods-GravitySliderFlowLayout_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,13 +35,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D84CF501849E4BBE9599DAC8 /* Pods_GravitySliderFlowLayout_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05D036861FA76069002C927B /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				05D036871FA76084002C927B /* GravitySliderFlowLayout.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
 		05D6C0981F9F1777002174F6 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
@@ -69,30 +68,16 @@
 		4D6D43EF6F3A826E87754FAA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				645B79A0C75B22CFBB01F805 /* Pods_GravitySliderFlowLayout_Example.framework */,
-				8B1E0E12E4C41737252EA929 /* Pods_GravitySliderFlowLayout_Tests.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		53FC1A8AB2512C643A7769FA /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				D3AF43636ACA69A271D876CA /* Pods-GravitySliderFlowLayout_Example.debug.xcconfig */,
-				5551F29BCA2130662071ADE2 /* Pods-GravitySliderFlowLayout_Example.release.xcconfig */,
-				4091DCFCA0CD3E9ACBF4D885 /* Pods-GravitySliderFlowLayout_Tests.debug.xcconfig */,
-				060AA8DD4A5462649640450A /* Pods-GravitySliderFlowLayout_Tests.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
-				607FACF51AFB993E008FA782 /* Podspec Metadata */,
+				05D036861FA76069002C927B /* Sources */,
 				607FACD21AFB9204008FA782 /* Example for GravitySliderFlowLayout */,
 				607FACD11AFB9204008FA782 /* Products */,
-				53FC1A8AB2512C643A7769FA /* Pods */,
 				4D6D43EF6F3A826E87754FAA /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -129,16 +114,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
-			isa = PBXGroup;
-			children = (
-				97C2671730D90DE33FD088D2 /* GravitySliderFlowLayout.podspec */,
-				7F671F9A5D3E8E2F51BA97A2 /* README.md */,
-				9CF3967EA05477C506C1D102 /* LICENSE */,
-			);
-			name = "Podspec Metadata";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,12 +121,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "GravitySliderFlowLayout_Example" */;
 			buildPhases = (
-				F1FBAA1C0B38D124E9E85494 /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				AF1F96C0CF0947D3F22246B4 /* [CP] Embed Pods Frameworks */,
-				794C731A5C89763DE7F1F242 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -209,54 +181,6 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		794C731A5C89763DE7F1F242 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GravitySliderFlowLayout_Example/Pods-GravitySliderFlowLayout_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		AF1F96C0CF0947D3F22246B4 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GravitySliderFlowLayout_Example/Pods-GravitySliderFlowLayout_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F1FBAA1C0B38D124E9E85494 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		607FACCC1AFB9204008FA782 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -264,6 +188,7 @@
 			files = (
 				05D6C0951F9F1757002174F6 /* ViewController.swift in Sources */,
 				05D6C09F1F9F17FF002174F6 /* UIColor.swift in Sources */,
+				05D036881FA76085002C927B /* GravitySliderFlowLayout.swift in Sources */,
 				05D6C09A1F9F1777002174F6 /* ProductCollectionViewCell.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
@@ -384,7 +309,6 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D3AF43636ACA69A271D876CA /* Pods-GravitySliderFlowLayout_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GravitySliderFlowLayout/Info.plist;
@@ -399,7 +323,6 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5551F29BCA2130662071ADE2 /* Pods-GravitySliderFlowLayout_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GravitySliderFlowLayout/Info.plist;

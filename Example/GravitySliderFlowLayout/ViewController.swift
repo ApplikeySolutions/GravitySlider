@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import GravitySliderFlowLayout
 
 class ViewController: UIViewController {
     

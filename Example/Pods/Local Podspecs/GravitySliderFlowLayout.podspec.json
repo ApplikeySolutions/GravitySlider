@@ -1,0 +1,22 @@
+{
+  "name": "GravitySliderFlowLayout",
+  "version": "0.1.0",
+  "summary": "A short description of GravitySliderFlowLayout.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ihahanov/GravitySliderFlowLayout",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ihahanov": "ivan.hahanov@applikeysolutions.com"
+  },
+  "source": {
+    "git": "https://github.com/ihahanov/GravitySliderFlowLayout.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "GravitySliderFlowLayout/Classes/**/*"
+}

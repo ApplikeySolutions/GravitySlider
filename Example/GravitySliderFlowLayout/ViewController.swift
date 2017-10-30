@@ -75,25 +75,16 @@ class ViewController: UIViewController {
     private func animateChangingTitle(for indexPath: IndexPath) {
         UIView.transition(with: productTitleLabel, duration: 0.3, options: .transitionCrossDissolve, animations: {
             self.productTitleLabel.text = self.titles[indexPath.row % self.titles.count]
-            }, completion: nil)
+        }, completion: nil)
         UIView.transition(with: productSubtitleLabel, duration: 0.3, options: .transitionCrossDissolve, animations: {
             self.productSubtitleLabel.text = self.subtitles[indexPath.row % self.subtitles.count]
-            }, completion: nil)
+        }, completion: nil)
         UIView.transition(with: priceButton, duration: 0.3, options: .transitionCrossDissolve, animations: {
             self.priceButton.setTitle(self.prices[indexPath.row % self.prices.count], for: .normal)
         }, completion: nil)
     }
     
     @IBAction func didPressPriceButton(_ sender: Any) {
-        itemsNumber += 1
-        self.collectionView.insertItems(at: [IndexPath(row: 0, section: 0)])
-//        collectionView.performBatchUpdates({ [weak self] in
-//            self?.collectionView.insertItems(at: [IndexPath(row: 0, section: 0)])
-//        }) { [weak self] (completed) in
-//            if completed {
-//                self?.collectionView.collectionViewLayout.invalidateLayout()
-//            }
-//        }
         
     }
     
@@ -122,7 +113,7 @@ extension ViewController: UICollectionViewDelegate {
         if let indexPathFirst = collectionView.indexPathForItem(at: locationFirst), let indexPathSecond = collectionView.indexPathForItem(at: locationSecond), let indexPathThird = collectionView.indexPathForItem(at: locationThird), indexPathFirst.row == indexPathSecond.row && indexPathSecond.row == indexPathThird.row && indexPathFirst.row != pageControl.currentPage {
             pageControl.currentPage = indexPathFirst.row % images.count
             self.animateChangingTitle(for: indexPathFirst)
-        } 
+        }
     }
 }
 

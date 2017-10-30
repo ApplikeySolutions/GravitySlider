@@ -52,34 +52,21 @@ open class GravitySliderFlowLayout: UICollectionViewFlowLayout {
             for attribute in attributes {
                 let cellX = collectionView.convert(attribute.center, to: nil).x
                 let difference = collectionView.center.x - cellX
-                let differenceFunction = -pow(abs(difference)/collectionView.frame.size.width, 2.0) + 1.0
-                //                attribute.alpha = differenceFunction
-                var transform = CATransform3DIdentity
-                let secondDifferenceFunction = -pow((difference / 1.8)/collectionView.frame.size.width * 2.0, 2.0) + 1.0
-                let functionAbscissa = (difference/(itemSize.width * 0.135) + CGFloat.pi)
-                //                transform = CATransform3DTranslate(transform, sin(functionAbscissa)*itemSize.width*0.35, 0.0, 0.0)
+                let zIndexValue = -pow(abs(difference)/collectionView.frame.size.width, 2.0) + 1.0
+                let scaleFactor = -pow((difference / 1.8)/collectionView.frame.size.width * 2.0, 2.0) + 1.0
                 
                 let numPeriods = floor(Double(cellX / period))
                 let adjustment = CGFloat(numPeriods) * period
                 let relativeDistanceFromCenter = collectionView.center.x - (cellX - adjustment)
-                let centerProximityMagnitude = sinDistributor(x: cellX, period: period, xOffset: collectionView.center.x)//sin(cellX/(halfPeriod / CGFloat.pi) - collectionView.center.x/(halfPeriod / CGFloat.pi))
+                let centerProximityMagnitude = sinDistributor(x: cellX, period: period, xOffset: collectionView.center.x)
                 
+                var transform = CATransform3DIdentity
                 transform = CATransform3DTranslate(transform, relativeDistanceFromCenter - adjustment + centerProximityMagnitude * itemSize.width*0.6, 0.0, 0.0)
-                
-                if attribute.indexPath.row == 2 {
-                    print("centerProximityMagnitude ", centerProximityMagnitude)
-                    print("cell X ", cellX)
-                }
+                transform = CATransform3DScale(transform, scaleFactor, scaleFactor, 1.0)
                 
                 let distanceFromCenter = fabs(collectionView.center.x - cellX)
                 attribute.alpha = sqrtDistributor(x: distanceFromCenter, threshold: period*0.5, xOrigin: period*0.6)
-                //                let isCellVisible = distanceFromCenter < period*0.7
-                //                attribute.alpha = isCellVisible ? 1 : 0
-                
-                transform = CATransform3DScale(transform, secondDifferenceFunction, secondDifferenceFunction, 1.0)
-                //                let isInsideFunctionAbscissaInterval = functionAbscissa >= -CGFloat.pi*0.7 && functionAbscissa <= 2.7*CGFloat.pi
-                //                attribute.alpha = 1//isInsideFunctionAbscissaInterval ? 1.0 : 0.0
-                attribute.zIndex = Int(differenceFunction * 1000)
+                attribute.zIndex = Int(zIndexValue * 1000)
                 attribute.transform3D = transform
             }
             return attributes

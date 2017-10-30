@@ -15,21 +15,12 @@ GravitySlider is a lightweight animation flowlayot for UICollectionView complete
                        DESC
 
   s.homepage         = 'https://github.com/ApplikeySolutions/GravitySlider'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Applikey Solutions' => 'welcome@applikeysolutions.com' }
   s.source           = { :git => 'https://github.com/AppliKeySolutions/GravitySlider.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/Applikey_'
 
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'GravitySliderFlowLayout/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'GravitySliderFlowLayout' => ['GravitySliderFlowLayout/Assets/*.png']
-  # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
